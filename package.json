@@ -1,0 +1,33 @@
+{
+  "name": "nanocomponent-issue-88",
+  "description": "repro and solution for https://github.com/choojs/nanocomponent/issues/88",
+  "version": "1.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
+  "bin": {
+    "nanocomponent-issue-88": "./bin.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/ungoldman/nanocomponent-issue-88/issues"
+  },
+  "dependencies": {
+    "budo": "^11.6.0",
+    "nanocomponent": "^6.5.2",
+    "nanohtml": "^1.4.0",
+    "nanomorph": "^5.2.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/ungoldman/nanocomponent-issue-88#readme",
+  "license": "ISC",
+  "main": "app.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/nanocomponent-issue-88.git"
+  },
+  "scripts": {
+    "bug": "budo app.js",
+    "fix": "budo solve.js",
+    "start": "npm run fix",
+    "test": "standard"
+  }
+}
