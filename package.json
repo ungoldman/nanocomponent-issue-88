@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bin": {
-    "nanocomponent-issue-88": "./bin.sh"
+    "nanocomponent-issue-88": "./bin.js"
   },
   "bugs": {
     "url": "https://github.com/ungoldman/nanocomponent-issue-88/issues"
