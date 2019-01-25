@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
-require('budo')(require.resolve('./solve.js'), {
+const path = require.resolve('./solve.js')
+
+console.log('path', path)
+
+require('budo')(path, {
   stream: process.stdout,
   live: true,
   open: true
