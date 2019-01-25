@@ -46,7 +46,7 @@ function updateMorph () {
 
 function updateManual () {
   console.log('updateManual', manuals++)
-  p.innerText = `Updated ${manuals} manually on ${Date.now()}`
+  p.innerText = `Updated ${manuals} times manually on ${Date.now()}`
 }
 
 updateMorph()
